@@ -1,0 +1,20 @@
+package com.microservice.order_service.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class ProductDTO {
+
+    //dto to communicate with product service
+
+    private Long id;
+    private String name;
+    private double price;
+
+}
